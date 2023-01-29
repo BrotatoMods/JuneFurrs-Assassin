@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/nail_file/assassinmod_nail_file_icon.png" type="Texture" id=1]
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/nail_file/nail_file_effect_1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/nail_file/nail_file_appearance.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "item_nail_file"
+unlocked_by_default = true
+icon = ExtResource( 1 )
+name = "Nail File"
+tier = 2
+value = 75
+effects = [ ExtResource( 3 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = false
+max_nb = -1
+item_appearances = [ ExtResource( 4 ) ]
+tags = [ "stat_crit_chance" ]

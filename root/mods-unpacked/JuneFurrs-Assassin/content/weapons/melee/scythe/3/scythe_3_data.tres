@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/scythe/assassinmod_scythe_icon.png" type="Texture" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/scythe/3/scythe_3_stats.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/scythe/4/scythe_4_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/scythe/scythe_effect_shared.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/scythe/scythe.tscn" type="PackedScene" id=6]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/assassin/assassin_set_data.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 3 )
+my_id = "weapon_scythe_3"
+unlocked_by_default = false
+icon = ExtResource( 1 )
+name = "Scythe"
+tier = 2
+value = 90
+effects = [ ExtResource( 5 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+weapon_id = "weapon_scythe"
+type = 0
+weapon_classes = [ 5 ]
+scene = ExtResource( 6 )
+stats = ExtResource( 2 )
+upgrades_into = ExtResource( 4 )
+weapon_classes_cl = [ ExtResource( 7 ) ]

@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/claws/assassinmod_claws_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/claws/3/claws_3_stats.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/claws/claws.tscn" type="PackedScene" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/claws/4/claws_4_data.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "weapon_claws_3"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "Claws"
+tier = 2
+value = 58
+effects = [  ]
+has_gameplay_modifications = false
+tracking_text = ""
+weapon_id = "weapon_claws"
+type = 0
+weapon_classes = [ 4, 5 ]
+scene = ExtResource( 4 )
+stats = ExtResource( 3 )
+upgrades_into = ExtResource( 5 )
+weapon_classes_cl = [  ]

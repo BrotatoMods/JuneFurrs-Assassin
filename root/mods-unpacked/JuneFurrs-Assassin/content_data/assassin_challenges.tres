@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=11 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_terrorist_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/special_origin_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_stress_eater_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_unstable_data.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger5_unstable_final_fate_data.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_outlaw_data.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_assassin_data.tres" type="Resource" id=8]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/special_deaths_friend_data.tres" type="Resource" id=9]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_cyborg_data.tres" type="Resource" id=10]
+
+[resource]
+script = ExtResource( 1 )
+items = [  ]
+weapons = [  ]
+characters = [  ]
+weapons_characters = [  ]
+debug_items = [  ]
+sets = [  ]
+challenges = [ ExtResource( 8 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 5 ) ]

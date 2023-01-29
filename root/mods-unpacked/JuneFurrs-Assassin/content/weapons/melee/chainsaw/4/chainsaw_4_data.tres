@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/chainsaw/assassinmod_chainsaw_icon.png" type="Texture" id=1]
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/chainsaw/4/chainsaw_4_stats.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/chainsaw/chainsaw.tscn" type="PackedScene" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/assassin/assassin_set_data.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "weapon_chainsaw_4"
+unlocked_by_default = true
+icon = ExtResource( 1 )
+name = "Chainsaw"
+tier = 3
+value = 200
+effects = [  ]
+has_gameplay_modifications = false
+tracking_text = ""
+weapon_id = "weapon_chainsaw"
+type = 0
+weapon_classes = [ 2 ]
+scene = ExtResource( 4 )
+stats = ExtResource( 3 )
+weapon_classes_cl = [ ExtResource( 5 ) ]

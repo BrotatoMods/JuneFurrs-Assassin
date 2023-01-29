@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/unstable/assassinmod_psicopath_eyes.png" type="Texture" id=1]
+[ext_resource path="res://items/global/item_appearance_data.gd" type="Script" id=2]
+
+[resource]
+script = ExtResource( 2 )
+sprite = ExtResource( 1 )
+position = 6
+display_priority = 2
+depth = 500.0

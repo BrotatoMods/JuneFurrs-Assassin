@@ -1,0 +1,26 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://weapons/ranged/wand/2/wand_2_effect_1.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/scorching_sand_bottle/2/scorching_sand_bottle_2_stats.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/scorching_sand_bottle/3/scorching_sand_bottle_3_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/scorching_sand_bottle/scorching_sand_bottle.tscn" type="PackedScene" id=5]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/scorching_sand_bottle/assassinmod_scorching_sand_bottle_icon.png" type="Texture" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "weapon_scorching_sand_bottle_2"
+unlocked_by_default = true
+icon = ExtResource( 6 )
+name = "Scorching Sand Bottle"
+tier = 1
+value = 40
+effects = [ ExtResource( 2 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+weapon_id = "weapon_scorching_sand_bottle"
+type = 1
+weapon_classes = [ 3 ]
+scene = ExtResource( 5 )
+stats = ExtResource( 3 )
+upgrades_into = ExtResource( 4 )

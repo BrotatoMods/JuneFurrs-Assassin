@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/small_scythe/4/small_scythe_4_stats.tres" type="Resource" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/small_scythe/assassinmod_small_scythe_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/small_scythe/small_scythe.tscn" type="PackedScene" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/assassin/assassin_set_data.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 3 )
+my_id = "weapon_small_scythe_4"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "Small Scythe"
+tier = 3
+value = 109
+effects = [  ]
+has_gameplay_modifications = false
+tracking_text = ""
+weapon_id = "weapon_small_scythe"
+type = 0
+weapon_classes = [ 12 ]
+scene = ExtResource( 4 )
+stats = ExtResource( 1 )
+weapon_classes_cl = [ ExtResource( 5 ) ]

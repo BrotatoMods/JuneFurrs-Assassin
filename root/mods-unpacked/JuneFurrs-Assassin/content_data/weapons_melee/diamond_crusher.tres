@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/diamond_crusher/3/diamond_crusher_3_data.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/diamond_crusher/4/diamond_crusher_4_data.tres" type="Resource" id=3]
+
+[resource]
+script = ExtResource( 1 )
+items = [  ]
+weapons = [ ExtResource( 2 ), ExtResource( 3 ) ]
+characters = [  ]
+weapons_characters = [  ]
+debug_items = [  ]
+sets = [  ]
+challenges = [  ]

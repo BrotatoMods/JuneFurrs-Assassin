@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/one_arms_corpse/assassinmod_one_arms_corpse_icon.png" type="Texture" id=1]
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/one_arms_corpse/one_arms_corpse_appearance.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/one_arms_corpse/one_arms_corpse_effect_1.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/one_arms_corpse/one_arms_corpse_effect_3.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/one_arms_corpse/one_arms_corpse_effect_2.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/one_arms_corpse/one_arms_corpse_effect_4.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "item_one_arms_corpse"
+unlocked_by_default = false
+icon = ExtResource( 1 )
+name = "One-arm's Corpse"
+tier = 3
+value = 100
+effects = [ ExtResource( 4 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = true
+max_nb = -1
+item_appearances = [ ExtResource( 3 ) ]
+tags = [ "stat_luck" ]

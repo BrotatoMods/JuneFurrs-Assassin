@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://items/all/lemonade/lemonade_data.tres" type="Resource" id=1]
+[ext_resource path="res://effects/items/starting_item_effect.gd" type="Script" id=2]
+
+[resource]
+script = ExtResource( 2 )
+key = "starting_item"
+text_key = "effect_starting_item"
+value = 1
+effect_sign = 3
+arg_signs = [  ]
+item = ExtResource( 1 )

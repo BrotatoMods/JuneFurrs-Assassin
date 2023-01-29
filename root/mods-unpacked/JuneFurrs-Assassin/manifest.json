@@ -1,0 +1,22 @@
+{
+	"name": "Assassin",
+	"namespace": "JuneFurrs",
+	"version_number": "0.9.0",
+	"description": "Adds new characters, weapons and items",
+	"website_url": "https://github.com/BrotatoMods/Assassin-Mod",
+	"dependencies": [
+		"Darkly77-ContentLoader"
+	],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": [
+				"JuneFurrs",
+				"Darkly77"
+			],
+			"compatible_mod_loader_version": "3.0.0",
+			"compatible_game_version": ["0.6.1.6"],
+			"config_defaults": {}
+		}
+	}
+}

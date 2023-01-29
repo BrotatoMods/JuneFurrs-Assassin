@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_glasses/broken_glasses_effect_3.tres" type="Resource" id=1]
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_glasses/broken_glasses_appearance.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_glasses/assassinmod_broken_glasses_icon.png" type="Texture" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_glasses/broken_glasses_effect_2.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "item_broken_glasses"
+unlocked_by_default = false
+icon = ExtResource( 4 )
+name = "Broken Glasses"
+tier = 2
+value = 70
+effects = [ ExtResource( 5 ), ExtResource( 1 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = true
+max_nb = -1
+item_appearances = [ ExtResource( 3 ) ]
+tags = [ "item_cursed_letter" ]

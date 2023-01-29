@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/wasp/wasp_effect_2.tres" type="Resource" id=1]
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/wasp/wasp_appearance.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/wasp/wasp_effect_1.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/wasp/wasp_effect_3.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/wasp/assassinmod_wasp_icon.png" type="Texture" id=6]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "item_wasp"
+unlocked_by_default = true
+icon = ExtResource( 6 )
+name = "Wasp"
+tier = 0
+value = 35
+effects = [ ExtResource( 4 ), ExtResource( 1 ), ExtResource( 5 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = false
+max_nb = -1
+item_appearances = [ ExtResource( 3 ) ]
+tags = [ "stat_ranged_damage", "stat_melee_damage" ]

@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/assassinmod_six_bullet_revolver.png-bb9b1e7915e6523a0f68e6d75b0fce3b.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/six_bullet_revolver/assassinmod_six_bullet_revolver.png"
+dest_files=[ "res://.import/assassinmod_six_bullet_revolver.png-bb9b1e7915e6523a0f68e6d75b0fce3b.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

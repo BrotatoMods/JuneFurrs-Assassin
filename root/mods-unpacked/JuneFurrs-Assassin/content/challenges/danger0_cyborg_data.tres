@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/challenges/cl_challenge_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/killer_robot/assassinmod_killer_robot_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/robo_fist/2/robo_fist_2_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/killer_robot/cyborg_data.tres" type="Resource" id=4]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "chal_cyborg"
+unlocked_by_default = false
+icon = ExtResource( 2 )
+name = "Cyborg"
+tier = 0
+value = 1
+effects = [  ]
+has_gameplay_modifications = false
+tracking_text = ""
+description = "CHAL_CHARACTER_DANGER"
+reward_type = 1
+reward = ExtResource( 3 )
+number = 0
+stat = ""
+required_character = ExtResource( 4 )
+required_danger_number = 0
+required_weapons_and = [  ]
+required_weapons_or = [  ]
+required_items_and = [  ]
+required_items_or = [  ]
+must_win_run = true

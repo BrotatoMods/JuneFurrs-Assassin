@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/challenges/cl_challenge_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/scythe/assassinmod_scythe_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/scythe/3/scythe_3_data.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_glasses/broken_glasses_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/cursed_letter/cursed_letter_data.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "chal_two_items_challenge"
+unlocked_by_default = false
+icon = ExtResource( 2 )
+name = "Death's Friend"
+tier = 0
+value = 1
+effects = [  ]
+has_gameplay_modifications = false
+tracking_text = ""
+description = "CHAL_DEATHS_FRIEND_DESC"
+reward_type = 1
+reward = ExtResource( 3 )
+number = 0
+stat = ""
+required_danger_number = -1
+required_weapons_and = [  ]
+required_weapons_or = [  ]
+required_items_and = [ ExtResource( 4 ), ExtResource( 5 ) ]
+required_items_or = [  ]
+must_win_run = false

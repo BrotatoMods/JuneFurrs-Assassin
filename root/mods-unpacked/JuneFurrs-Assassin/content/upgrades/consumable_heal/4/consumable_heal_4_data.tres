@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://items/upgrades/upgrade_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/upgrades/consumable_heal/4/consumable_heal_4_effect.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/upgrades/consumable_heal/assassinmod_consumable_heal.png" type="Texture" id=3]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "upgrade_consumable_heal_4"
+unlocked_by_default = true
+icon = ExtResource( 3 )
+name = "Stomach"
+tier = 3
+value = 1
+effects = [ ExtResource( 2 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = false
+max_nb = -1
+item_appearances = [  ]
+tags = [  ]
+upgrade_id = "upgrade_consumable_heal"

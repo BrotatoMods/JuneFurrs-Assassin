@@ -1,0 +1,37 @@
+[gd_resource type="Resource" load_steps=18 format=2]
+
+[ext_resource path="res://weapons/melee/fist/1/fist_data.tres" type="Resource" id=1]
+[ext_resource path="res://items/characters/character_data.gd" type="Script" id=2]
+[ext_resource path="res://weapons/ranged/double_barrel_shotgun/1/double_barrel_shotgun_data.tres" type="Resource" id=3]
+[ext_resource path="res://weapons/melee/stick/1/stick_data.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/claws/1/claws_1_data.tres" type="Resource" id=5]
+[ext_resource path="res://weapons/melee/chopper/1/chopper_data.tres" type="Resource" id=6]
+[ext_resource path="res://weapons/ranged/shredder/1/shredder_data.tres" type="Resource" id=7]
+[ext_resource path="res://weapons/melee/rock/1/rock_data.tres" type="Resource" id=8]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_effect_2.tres" type="Resource" id=9]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_mouth_appearance.tres" type="Resource" id=10]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_effect_5.tres" type="Resource" id=11]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_effect_3.tres" type="Resource" id=12]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_effect_1.tres" type="Resource" id=13]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_effect_6.tres" type="Resource" id=14]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_effect_4.tres" type="Resource" id=15]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/stress_eater_eyes_appearance.tres" type="Resource" id=16]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/stress_eater/assassinmod_stress_eater_icon.png" type="Texture" id=17]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "character_stress_eater"
+unlocked_by_default = true
+icon = ExtResource( 17 )
+name = "Stress Eater"
+tier = 0
+value = 1
+effects = [ ExtResource( 13 ), ExtResource( 9 ), ExtResource( 12 ), ExtResource( 15 ), ExtResource( 11 ), ExtResource( 14 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = false
+max_nb = -1
+item_appearances = [ ExtResource( 16 ), ExtResource( 10 ) ]
+tags = [ "item_lemonade" ]
+wanted_tags = [ "consumable_heal" ]
+starting_weapons = [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 1 ) ]

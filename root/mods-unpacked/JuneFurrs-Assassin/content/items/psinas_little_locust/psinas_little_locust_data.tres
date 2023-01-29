@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/psinas_little_locust/psinas_little_locust_appearance.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/psinas_little_locust/psinas_little_locust_effect_1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/psinas_little_locust/psinas_little_locust_effect_3.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/psinas_little_locust/psinas_little_locust_effect_2.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/psinas_little_locust/assassinmod_psinas_little_locust_icon.png" type="Texture" id=6]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "item_psinas_little_locust"
+unlocked_by_default = true
+icon = ExtResource( 6 )
+name = "Psina's Little Locust"
+tier = 3
+value = 200
+effects = [ ExtResource( 3 ), ExtResource( 5 ), ExtResource( 4 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = true
+max_nb = -1
+item_appearances = [ ExtResource( 2 ) ]
+tags = [ "piercing" ]

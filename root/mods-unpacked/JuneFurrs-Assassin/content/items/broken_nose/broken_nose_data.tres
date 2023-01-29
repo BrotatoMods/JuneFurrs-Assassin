@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_nose/assassinmod_broken_nose_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_nose/broken_nose_effect_1.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_nose/broken_nose_effect_2.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/broken_nose/broken_nose_appearance.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "item_broken_nose"
+unlocked_by_default = true
+icon = ExtResource( 2 )
+name = "Broken Nose"
+tier = 2
+value = 60
+effects = [ ExtResource( 3 ), ExtResource( 4 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = false
+max_nb = -1
+item_appearances = [ ExtResource( 5 ) ]
+tags = [ "stat_max_hp" ]

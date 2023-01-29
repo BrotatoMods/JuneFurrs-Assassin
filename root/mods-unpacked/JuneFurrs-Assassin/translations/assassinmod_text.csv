@@ -1,0 +1,9 @@
+keys,en
+CHAL_DEATHS_FRIEND_NAME,Death's Friend
+CHAL_DEATHS_FRIEND_DESC,Get two specific items during a run (clue: Pacifict's property)
+SET_ASSASSIN,Assassin
+SET_LIGHT,Light
+WEAPON_SCYTHE_WELLROUNDED_PROPERTY,Well-Rounded's Property
+ITEM_DESC_OLD_JOURNAL,"[color=#555555]page 49 (all other pages seem to be ripped off) wow, the time passes so quickly... i mean, why did this all started? this was a normal society, we had each other like a family, we protected the most fragile members from the aliens, and we were happy, but suddenly all changed... for any reason, one-arm begun to behave quite weirdly, they were angrier, stronger, and its eyes looked like trying to find something... kill something... that's when homicide alarms ringed, and everyone was in fear, of when was the next attack having place... yesterday i got a message in a card, from one-arm, he says he wants to battle...[/color]"
+ITEM_DESC_CURSED_LETTER,"[color=#555555]Day 50: I'm scared... I don't know what to do anymore... I've been hiding too much time, but, knowing what happened to Well-Rounded, I don't feel safe anymore... I'm starting to loose my sanity, I don't know to what point I have to get for having my heart disappearing between mourning and blood. I think that trying to survive from aliens without killing them is not an option anymore, I'll have to break my promise, and KILL.[/color]"
+EFFECT_ALL_PROJECTILES_HOMING,All projectiles have homing now

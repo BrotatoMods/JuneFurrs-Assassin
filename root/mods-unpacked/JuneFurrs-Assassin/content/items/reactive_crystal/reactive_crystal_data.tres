@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=7 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/reactive_crystal/assassinmod_reactive_crystal_icon.png" type="Texture" id=1]
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/reactive_crystal/reactive_crystal_appearance.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/reactive_crystal/reactive_crystal_effect_2.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/reactive_crystal/reactive_crystal_effect_1.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/reactive_crystal/reactive_crystal_effect_4.tres" type="Resource" id=6]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "item_reactive_crystal"
+unlocked_by_default = false
+icon = ExtResource( 1 )
+name = "Reactive Crystal"
+tier = 2
+value = 75
+effects = [ ExtResource( 5 ), ExtResource( 4 ), ExtResource( 6 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = true
+max_nb = -1
+item_appearances = [ ExtResource( 3 ) ]
+tags = [ "stat_crit_chance" ]

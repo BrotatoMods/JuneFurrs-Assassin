@@ -1,0 +1,23 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/adult/assassinmod_adult_icon.png" type="Texture" id=1]
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/adult/adult_effect_2.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/adult/adult_appearance.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/adult/adult_effect_3.tres" type="Resource" id=5]
+
+[resource]
+script = ExtResource( 2 )
+my_id = "item_adult"
+unlocked_by_default = true
+icon = ExtResource( 1 )
+name = "Adult"
+tier = 1
+value = 60
+effects = [ ExtResource( 5 ), ExtResource( 3 ) ]
+has_gameplay_modifications = false
+tracking_text = ""
+unique = false
+max_nb = -1
+item_appearances = [ ExtResource( 4 ) ]
+tags = [ "xp_gain" ]
