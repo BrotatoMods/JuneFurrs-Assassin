@@ -9,4 +9,4 @@ text_key = ""
 value = -40
 effect_sign = 3
 stat_displayed = "stat_damage"
-stats_modified = [ "stat_percent_damage", "stat_melee_damage", "stat_ranged_damage", "stat_elemental_damage", "explosion_danage", "piercing_damage", "bounce_damage" ]
+stats_modified = [ "stat_percent_damage", "stat_melee_damage", "stat_ranged_damage", "stat_elemental_damage", "explosion_damage", "piercing_damage", "bounce_damage" ]
