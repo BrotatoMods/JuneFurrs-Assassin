@@ -28,6 +28,7 @@ func _physics_process(delta):
 		set_to_be_destroyed()
 
 	var target_direction = velocity.normalized()
+	
 	if homing:
 		if target == null or !is_instance_valid(target) or target.dead:
 			set_target()
