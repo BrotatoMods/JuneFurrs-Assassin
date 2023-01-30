@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=10 format=2]
+[gd_resource type="Resource" load_steps=17 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/chainsaw/2/chainsaw_2_data.tres" type="Resource" id=2]
@@ -9,13 +9,20 @@
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/outlaw/outlaw_data.tres" type="Resource" id=7]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/killer_robot/cyborg_data.tres" type="Resource" id=8]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/unstable/unstable_data.tres" type="Resource" id=9]
+[ext_resource path="res://items/characters/loud/loud_data.tres" type="Resource" id=10]
+[ext_resource path="res://items/characters/mutant/mutant_data.tres" type="Resource" id=11]
+[ext_resource path="res://items/characters/chunky/chunky_data.tres" type="Resource" id=12]
+[ext_resource path="res://items/characters/multitasker/multitasker_data.tres" type="Resource" id=13]
+[ext_resource path="res://items/characters/one_arm/one_arm_data.tres" type="Resource" id=14]
+[ext_resource path="res://items/characters/explorer/explorer_data.tres" type="Resource" id=15]
+[ext_resource path="res://items/characters/masochist/masochist_data.tres" type="Resource" id=16]
 
 [resource]
 script = ExtResource( 1 )
 items = [  ]
 weapons = [ ExtResource( 4 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 5 ) ]
 characters = [  ]
-weapons_characters = [ [ ExtResource( 6 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 9 ) ] ]
+weapons_characters = [ [ ExtResource( 6 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 12 ), ExtResource( 11 ), ExtResource( 10 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 14 ), ExtResource( 16 ) ] ]
 debug_items = [  ]
 sets = [  ]
 challenges = [  ]

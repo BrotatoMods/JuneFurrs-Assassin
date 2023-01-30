@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=9 format=2]
+[gd_resource type="Resource" load_steps=15 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/small_scythe/1/small_scythe_1_data.tres" type="Resource" id=2]
@@ -8,13 +8,19 @@
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/assassin/assassin_data.tres" type="Resource" id=6]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/outlaw/outlaw_data.tres" type="Resource" id=7]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/unstable/unstable_data.tres" type="Resource" id=8]
+[ext_resource path="res://items/characters/loud/loud_data.tres" type="Resource" id=9]
+[ext_resource path="res://items/characters/multitasker/multitasker_data.tres" type="Resource" id=10]
+[ext_resource path="res://items/characters/generalist/generalist_data.tres" type="Resource" id=11]
+[ext_resource path="res://items/characters/speedy/speedy_data.tres" type="Resource" id=12]
+[ext_resource path="res://items/characters/explorer/explorer_data.tres" type="Resource" id=13]
+[ext_resource path="res://items/characters/farmer/farmer_data.tres" type="Resource" id=14]
 
 [resource]
 script = ExtResource( 1 )
 items = [  ]
 weapons = [ ExtResource( 2 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 3 ) ]
 characters = [  ]
-weapons_characters = [ [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ] ]
+weapons_characters = [ [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 11 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 14 ), ExtResource( 12 ), ExtResource( 13 ) ] ]
 debug_items = [  ]
 sets = [  ]
 challenges = [  ]
