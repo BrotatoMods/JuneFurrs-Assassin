@@ -11,4 +11,4 @@ effect_sign = 3
 arg_signs = [  ]
 weapon_class = 15
 stat_displayed_name = "stat_attack_speed"
-stat_name = "attack_speed"
+stat_name = "attack_speed_mod"
