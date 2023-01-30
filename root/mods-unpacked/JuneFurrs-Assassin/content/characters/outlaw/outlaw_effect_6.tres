@@ -8,5 +8,6 @@ key = "effect_reduce_stat_gains"
 text_key = ""
 value = -50
 effect_sign = 3
+arg_signs = [  ]
 stat_displayed = "stat_crit_chance"
 stats_modified = [ "stat_crit_chance" ]

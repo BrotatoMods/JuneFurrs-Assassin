@@ -1,10 +1,9 @@
-[gd_resource type="Resource" load_steps=18 format=2]
+[gd_resource type="Resource" load_steps=17 format=2]
 
 [ext_resource path="res://weapons/melee/fist/1/fist_data.tres" type="Resource" id=1]
 [ext_resource path="res://items/characters/character_data.gd" type="Script" id=2]
 [ext_resource path="res://weapons/ranged/double_barrel_shotgun/1/double_barrel_shotgun_data.tres" type="Resource" id=3]
 [ext_resource path="res://weapons/melee/stick/1/stick_data.tres" type="Resource" id=4]
-[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/claws/1/claws_1_data.tres" type="Resource" id=5]
 [ext_resource path="res://weapons/melee/chopper/1/chopper_data.tres" type="Resource" id=6]
 [ext_resource path="res://weapons/ranged/shredder/1/shredder_data.tres" type="Resource" id=7]
 [ext_resource path="res://weapons/melee/rock/1/rock_data.tres" type="Resource" id=8]
@@ -34,4 +33,4 @@ max_nb = -1
 item_appearances = [ ExtResource( 16 ), ExtResource( 10 ) ]
 tags = [ "item_lemonade" ]
 wanted_tags = [ "consumable_heal" ]
-starting_weapons = [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 1 ) ]
+starting_weapons = [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 3 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 1 ) ]

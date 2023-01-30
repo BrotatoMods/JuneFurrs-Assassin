@@ -8,5 +8,6 @@ key = "effect_reduce_stat_gains"
 text_key = ""
 value = -40
 effect_sign = 3
+arg_signs = [  ]
 stat_displayed = "stat_damage"
 stats_modified = [ "stat_percent_damage", "stat_melee_damage", "stat_ranged_damage", "stat_elemental_damage", "explosion_damage", "piercing_damage", "bounce_damage" ]

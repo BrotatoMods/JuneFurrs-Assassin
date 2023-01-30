@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=20 format=2]
+[gd_resource type="Resource" load_steps=19 format=2]
 
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/killer_robot/assassinmod_killer_robot_icon.png" type="Texture" id=1]
 [ext_resource path="res://weapons/melee/fist/1/fist_data.tres" type="Resource" id=2]
@@ -8,7 +8,6 @@
 [ext_resource path="res://weapons/ranged/crossbow/1/crossbow_data.tres" type="Resource" id=6]
 [ext_resource path="res://weapons/ranged/ghost_scepter/1/ghost_scepter_data.tres" type="Resource" id=7]
 [ext_resource path="res://weapons/ranged/laser_gun/1/laser_gun_data.tres" type="Resource" id=8]
-[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/chainsaw/1/chainsaw_1_data.tres" type="Resource" id=9]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/killer_robot/killer_robot_eyes_appearance.tres" type="Resource" id=10]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/killer_robot/killer_robot_effect_5.tres" type="Resource" id=11]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/killer_robot/killer_robot_cybernetic_part_appearance.tres" type="Resource" id=12]
@@ -36,4 +35,4 @@ max_nb = -1
 item_appearances = [ ExtResource( 12 ), ExtResource( 10 ), ExtResource( 14 ) ]
 tags = [  ]
 wanted_tags = [ "stat_engineering" ]
-starting_weapons = [ ExtResource( 9 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 2 ), ExtResource( 7 ), ExtResource( 6 ) ]
+starting_weapons = [ ExtResource( 4 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 2 ), ExtResource( 7 ), ExtResource( 6 ) ]
