@@ -1,13 +1,9 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://projectiles/player_projectile.tscn" type="PackedScene" id=1]
 [ext_resource path="res://overlap/hitbox.tscn" type="PackedScene" id=2]
-[ext_resource path="res://projectiles/bullet_taser/sprites/bullet_taser_0002.png" type="Texture" id=3]
-[ext_resource path="res://projectiles/bullet_taser/sprites/bullet_taser_0000.png" type="Texture" id=4]
-[ext_resource path="res://projectiles/bullet_taser/sprites/bullet_taser_0003.png" type="Texture" id=6]
-[ext_resource path="res://projectiles/bullet_taser/sprites/bullet_taser_0001.png" type="Texture" id=7]
-[ext_resource path="res://projectiles/bullet_taser/sprites/bullet_taser_0004.png" type="Texture" id=9]
-[ext_resource path="res://projectiles/bullet_taser/taser_projectile.gd" type="Script" id=10]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_projectiles/blowgun_projectile_slow/assassinmod_blowgun_projectile.png" type="Texture" id=3]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_projectiles/blowgun_projectile_slow/blowgun_projectile_slow.gd" type="Script" id=4]
 
 [sub_resource type="Animation" id=2]
 length = 0.001
@@ -21,7 +17,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 0,
-"values": [ ExtResource( 4 ) ]
+"values": [ ExtResource( 3 ) ]
 }
 
 [sub_resource type="Animation" id=1]
@@ -36,10 +32,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.02, 0.04, 0.06, 0.08 ),
-"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
 "update": 1,
-"values": [ ExtResource( 7 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 9 ) ]
+"values": [  ]
 }
 
 [sub_resource type="CircleShape2D" id=3]
@@ -47,13 +43,13 @@ radius = 133.5
 
 [node name="BlowgunProjectile" instance=ExtResource( 1 )]
 position = Vector2( -1, 0 )
-script = ExtResource( 10 )
+script = ExtResource( 4 )
 enable_physics_process = true
 rotation_speed = 0
 
 [node name="Sprite" parent="." index="0"]
 position = Vector2( 2, 0 )
-texture = ExtResource( 4 )
+texture = ExtResource( 3 )
 
 [node name="Hitbox" parent="." index="1"]
 position = Vector2( -22, 0 )
