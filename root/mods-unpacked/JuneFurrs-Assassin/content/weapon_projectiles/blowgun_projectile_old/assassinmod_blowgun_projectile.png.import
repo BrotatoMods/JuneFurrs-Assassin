@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/assassinmod_blowgun_projectile.png-ebd94850239b2628530ca29a6d0abf17.stex"
+path="res://.import/assassinmod_blowgun_projectile.png-39000f50b3c4e30a298cc5fa20e34893.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_projectiles/bullet_blowgun/assassinmod_blowgun_projectile.png"
-dest_files=[ "res://.import/assassinmod_blowgun_projectile.png-ebd94850239b2628530ca29a6d0abf17.stex" ]
+source_file="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_projectiles/blowgun_projectile_old/assassinmod_blowgun_projectile.png"
+dest_files=[ "res://.import/assassinmod_blowgun_projectile.png-39000f50b3c4e30a298cc5fa20e34893.stex" ]
 
 [params]
 
