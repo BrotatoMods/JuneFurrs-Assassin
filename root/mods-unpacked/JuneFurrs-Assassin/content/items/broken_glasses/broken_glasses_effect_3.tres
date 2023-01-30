@@ -4,7 +4,8 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "Here they are! Oh, they broke..."
-text_key = ""
+key = ""
+text_key = "ITEM_DESC_BROKEN_GLASSES"
 value = 0
 effect_sign = 3
+arg_signs = [  ]
