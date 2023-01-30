@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://projectiles/player_projectile.tscn" type="PackedScene" id=1]
-[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/projectiles/player_homing_projectile.gd" type="Script" id=2]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/projectiles/player_homing_projectile/player_homing_projectile.gd" type="Script" id=1]
+[ext_resource path="res://projectiles/player_projectile.tscn" type="PackedScene" id=2]
 
-[node name="PlayerHomingProjectile" instance=ExtResource( 1 )]
-script = ExtResource( 2 )
+[node name="AssassinPlayerHomingProjectile" instance=ExtResource( 2 )]
+script = ExtResource( 1 )
 enable_physics_process = false
 rotation_speed = 0
 drifting_factor = 0.1

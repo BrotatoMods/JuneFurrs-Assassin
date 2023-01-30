@@ -1,14 +1,12 @@
 extends "res://singletons/weapon_service.gd"
 
 const ASSASSIN_LOG = "JuneFurrs-Assassin"
-const ASSASSIN_HOMING_PROJECTILE_SCRIPT = preload("res://mods-unpacked/JuneFurrs-Assassin/content/weapons/projectiles/player_homing_projectile.gd")
-
+const ASSASSIN_HOMING_PROJECTILE_SCRIPT = preload("res://mods-unpacked/JuneFurrs-Assassin/content/weapon_projectiles/player_homing_projectile/player_homing_projectile.gd")
 
 # Extensions
 # =============================================================================
 
 func spawn_projectile(rotation:float, weapon_stats:RangedWeaponStats, pos:Vector2, knockback_direction:Vector2 = Vector2.ZERO, deferred:bool = false, effects:Array = [], from:Node = null, damage_tracking_key:String = "") -> Node:
-
 	var _proj = .spawn_projectile(rotation, weapon_stats, pos, knockback_direction, deferred, effects, from, damage_tracking_key)
 
 	if RunData.effects["all_homing_projectiles"]:
