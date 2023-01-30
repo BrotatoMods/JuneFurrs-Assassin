@@ -1,4 +1,4 @@
-class_name PlayerHomingProjectile
+class_name AssassinPlayerHomingProjectile
 extends PlayerProjectile
 
 
@@ -27,9 +27,11 @@ func _physics_process(delta):
 
 	var target_direction = velocity.normalized()
 	if homing:
-		if target == null or target.dead:
+		if target == null:
 			set_target()
-		else :
+		elif target.dead:
+			set_target()
+		else:
 			target_direction = global_position.direction_to(target.global_position)
 
 		var target_velocity = target_direction * speed
@@ -53,8 +55,8 @@ func set_target():
 		possible_targets.append_array(spawner_ref.bosses)
 		possible_targets.append_array(spawner_ref.neutrals)
 
-		for target in possible_targets:
-			actual_targets[(target.global_position - global_position).length()] = target
+		for ptarget in possible_targets:
+			actual_targets[(ptarget.global_position - global_position).length()] = ptarget
 
 		if actual_targets.size() > 0:
 			target = actual_targets[actual_targets.keys().min()]
