@@ -5,7 +5,7 @@
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=3]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/small_scythe/assassinmod_small_scythe_icon.png" type="Texture" id=4]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/small_scythe/small_scythe.tscn" type="PackedScene" id=5]
-[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/assassin/assassin_set_data.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/light/light_set_data.tres" type="Resource" id=6]
 
 [resource]
 script = ExtResource( 3 )
