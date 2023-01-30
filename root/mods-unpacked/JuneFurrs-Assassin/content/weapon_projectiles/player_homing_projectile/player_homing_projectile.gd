@@ -1,6 +1,8 @@
 class_name AssassinPlayerHomingProjectile
 extends PlayerProjectile
 
+# This projectile script is applied to projectiles if the `all_homing_projectiles` effect is active
+# @note: Perhaps setting `auto_target_enemy` might be suitable? See: `manage_special_spawn_projectile` in weapon_service.gd
 
 export (float) var drifting_factor = 0.1
 
@@ -27,9 +29,7 @@ func _physics_process(delta):
 
 	var target_direction = velocity.normalized()
 	if homing:
-		if target == null:
-			set_target()
-		elif target.dead:
+		if target == null or !is_instance_valid(target) or target.dead:
 			set_target()
 		else:
 			target_direction = global_position.direction_to(target.global_position)
