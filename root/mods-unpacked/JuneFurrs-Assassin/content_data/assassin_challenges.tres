@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=11 format=2]
+[gd_resource type="Resource" load_steps=13 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_terrorist_data.tres" type="Resource" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_assassin_data.tres" type="Resource" id=8]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/special_deaths_friend_data.tres" type="Resource" id=9]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_cyborg_data.tres" type="Resource" id=10]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_vanilla_assassin_one_arm_data.tres" type="Resource" id=11]
+[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/challenges/danger0_vanilla_assassin_pacifist_data.tres" type="Resource" id=12]
 
 [resource]
 script = ExtResource( 1 )
@@ -19,4 +21,4 @@ characters = [  ]
 weapons_characters = [  ]
 debug_items = [  ]
 sets = [  ]
-challenges = [ ExtResource( 8 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 5 ) ]
+challenges = [ ExtResource( 8 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 3 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 11 ), ExtResource( 12 ) ]
