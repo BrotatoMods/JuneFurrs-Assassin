@@ -1,5 +1,7 @@
 # Brotato - Assassin Mod
 
+![GitHub all releases](https://img.shields.io/github/downloads/BrotatoMods/Brotato-Assassin-Mod/total)
+
 Created by JuneFurrs. Adds new characters, weapons and items.
 
 * [Wiki Homepage](https://brotato.wiki.spellsandguns.com/Mod:Assassin) - Main documentation
