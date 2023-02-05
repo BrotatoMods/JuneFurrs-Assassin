@@ -11,6 +11,7 @@ Created by JuneFurrs. Adds new characters, weapons and items.
 
 * [ModLoader](https://github.com/GodotModding/godot-mod-loader) - v4+
 * [ContentLoader](https://github.com/BrotatoMods/Brotato-ContentLoader) - v3.0.2+
+* [Brotils](https://github.com/BrotatoMods/Brotato-Brotils/) - v1.0+
 
 ## Known Issues
 
