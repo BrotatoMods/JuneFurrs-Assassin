@@ -7,10 +7,11 @@
 
 [resource]
 script = ExtResource( 1 )
+characters = [  ]
 items = [  ]
 weapons = [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 2 ) ]
-characters = [  ]
 weapons_characters = [  ]
-debug_items = [  ]
 sets = [  ]
 challenges = [  ]
+debug_items = [  ]
+debug_weapons = [  ]

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=17 format=2]
 
-[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_set_data.gd" type="Script" id=1]
+[ext_resource path="res://items/sets/set_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/assassin/2/set_2_effect_3.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/assassin/3/set_3_effect_1.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/assassin/4/set_4_effect_2.tres" type="Resource" id=4]

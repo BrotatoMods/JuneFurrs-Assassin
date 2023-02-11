@@ -1,12 +1,13 @@
-[gd_resource type="Resource" load_steps=3 format=2]
+[gd_resource type="Resource" load_steps=2 format=2]
 
-[ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/hockey_mask/hockey_mask_data.tres" type="Resource" id=1]
-[ext_resource path="res://effects/items/starting_item_effect.gd" type="Script" id=2]
+[ext_resource path="res://items/global/effect.gd" type="Script" id=1]
 
 [resource]
-script = ExtResource( 2 )
-key = "starting_item"
+script = ExtResource( 1 )
+key = "item_hockey_mask"
 text_key = "effect_starting_item"
 value = 1
+custom_key = "starting_item"
+storage_method = 0
 effect_sign = 3
-item = ExtResource( 1 )
+custom_args = [  ]

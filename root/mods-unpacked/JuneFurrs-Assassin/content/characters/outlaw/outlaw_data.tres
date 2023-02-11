@@ -19,16 +19,14 @@
 
 [resource]
 script = ExtResource( 1 )
-my_id = "character_outlaw"
+my_id = "CHARACTER_OUTLAW"
 unlocked_by_default = true
 icon = ExtResource( 2 )
 name = "Outlaw"
 tier = 0
 value = 1
 effects = [ ExtResource( 12 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 18 ), ExtResource( 16 ) ]
-has_gameplay_modifications = false
 tracking_text = ""
-unique = false
 max_nb = -1
 item_appearances = [ ExtResource( 6 ), ExtResource( 3 ), ExtResource( 17 ) ]
 tags = [  ]

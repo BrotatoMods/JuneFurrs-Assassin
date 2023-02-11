@@ -1,28 +1,27 @@
-[gd_resource type="Resource" load_steps=8 format=2]
+[gd_resource type="Resource" load_steps=9 format=2]
 
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/blowgun/blowgun_effect_shared.tres" type="Resource" id=1]
-[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=2]
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=2]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/blowgun/3/blowgun_stats_3.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/blowgun/4/blowgun_data_4.tres" type="Resource" id=4]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/blowgun/blowgun.tscn" type="PackedScene" id=5]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/blowgun/assassinmod_blowgun_icon.png" type="Texture" id=6]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/light/light_set_data.tres" type="Resource" id=7]
+[ext_resource path="res://items/sets/primitive/primitive_set_data.tres" type="Resource" id=8]
 
 [resource]
 script = ExtResource( 2 )
 my_id = "weapon_blowgun_3"
 unlocked_by_default = true
 icon = ExtResource( 6 )
-name = "Blowgun"
+name = "WEAPON_BLOWGUN"
 tier = 2
 value = 75
 effects = [ ExtResource( 1 ) ]
-has_gameplay_modifications = false
 tracking_text = ""
 weapon_id = "weapon_blowgun"
 type = 1
-weapon_classes = [ 1 ]
+sets = [ ExtResource( 8 ), ExtResource( 7 ) ]
 scene = ExtResource( 5 )
 stats = ExtResource( 3 )
 upgrades_into = ExtResource( 4 )
-weapon_classes_cl = [ ExtResource( 7 ) ]

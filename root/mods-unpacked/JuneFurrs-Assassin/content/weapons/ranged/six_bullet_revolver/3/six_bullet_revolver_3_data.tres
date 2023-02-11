@@ -1,27 +1,26 @@
-[gd_resource type="Resource" load_steps=7 format=2]
+[gd_resource type="Resource" load_steps=8 format=2]
 
-[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/six_bullet_revolver/assassinmod_six_bullet_revolver_icon.png" type="Texture" id=2]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/six_bullet_revolver/4/six_bullet_revolver_4_data.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/six_bullet_revolver/3/six_bullet_revolver_3_stats.tres" type="Resource" id=4]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/ranged/six_bullet_revolver/six_bullet_revolver.tscn" type="PackedScene" id=5]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapon_sets/light/light_set_data.tres" type="Resource" id=6]
+[ext_resource path="res://items/sets/gun/gun_set_data.tres" type="Resource" id=7]
 
 [resource]
 script = ExtResource( 1 )
 my_id = "weapon_six_bullet_revolver_3"
 unlocked_by_default = false
 icon = ExtResource( 2 )
-name = "Six Bullet Revolver"
+name = "WEAPON_SIX_BULLET_REVOLVER"
 tier = 2
 value = 82
 effects = [  ]
-has_gameplay_modifications = false
 tracking_text = ""
 weapon_id = "weapon_six_bullet_revolver"
 type = 1
-weapon_classes = [ 14 ]
+sets = [ ExtResource( 7 ), ExtResource( 6 ) ]
 scene = ExtResource( 5 )
 stats = ExtResource( 4 )
 upgrades_into = ExtResource( 3 )
-weapon_classes_cl = [ ExtResource( 6 ) ]

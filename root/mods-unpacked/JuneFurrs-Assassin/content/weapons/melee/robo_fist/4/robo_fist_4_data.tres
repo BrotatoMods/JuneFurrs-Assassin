@@ -1,24 +1,23 @@
-[gd_resource type="Resource" load_steps=5 format=2]
+[gd_resource type="Resource" load_steps=6 format=2]
 
-[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/weapon_sets/classes/cl_class_weapon_data.gd" type="Script" id=1]
+[ext_resource path="res://items/global/weapon_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/robo_fist/4/robo_fist_4_stats.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/robo_fist/robo_fist.tscn" type="PackedScene" id=3]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/weapons/melee/robo_fist/assassinmod_robo_fist_icon.png" type="Texture" id=4]
+[ext_resource path="res://items/sets/unarmed/unarmed_set_data.tres" type="Resource" id=5]
 
 [resource]
 script = ExtResource( 1 )
 my_id = "weapon_robot_fist_4"
 unlocked_by_default = false
 icon = ExtResource( 4 )
-name = "Robo Fist"
+name = "WEAPON_ROBO_FIST"
 tier = 3
 value = 105
 effects = [  ]
-has_gameplay_modifications = false
 tracking_text = ""
 weapon_id = "weapon_robo_fist"
 type = 0
-weapon_classes = [ 4, 10 ]
+sets = [ ExtResource( 5 ) ]
 scene = ExtResource( 3 )
 stats = ExtResource( 2 )
-weapon_classes_cl = [  ]

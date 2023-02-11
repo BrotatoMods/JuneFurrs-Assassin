@@ -1,14 +1,49 @@
 keys,en
+CHARACTER_ASSASSIN,Assassin
+CHARACTER_KILLER_ROBOT,Cyborg
+CHARACTER_OUTLAW,Outlaw
+CHARACTER_STRESS_EATER,Stress Eater
+CHARACTER_TERRORIST,Terrorist
+CHARACTER_UNSTABLE,Unstable
+ITEM_ADULT,Adult
+ITEM_ASSASSINS_DESIRE,Assassin's Desire
+ITEM_BIG_BELLY,Big Belly
+ITEM_BLOOD_STAIN,Blood Stain
+ITEM_BLOOD_THIRSTY,Blood Thirsty
+ITEM_BROKEN_GLASSES,Broken Glasses
+ITEM_BROKEN_NOSE,Broken Nose
+ITEM_CREEPY_SMILE,Creepy Smile
+ITEM_CURSED_LETTER,Cursed Letter
+ITEM_EARRING,Earring
+ITEM_FRIENDLY_PHOTO,Friendly Photo
+ITEM_HOCKEY_MASK,Hockey Mask
+ITEM_NAIL_FILE,Nail File
+ITEM_OLD_JOURNAL,Old Journal
+ITEM_ONE_ARMS_CORPSE,One-arm's Corpse
+ITEM_PSINAS_LITTLE_LOCUST,Psina's Little Locust
+ITEM_REACTIVE_CRYSTAL,Reactive Crystal
+ITEM_STATIONARY_THORN,Stationary Thorn
+ITEM_WASP,Wasp
 CHAL_DEATHS_FRIEND_NAME,Death's Friend
 CHAL_DEATHS_FRIEND_DESC,Get two specific items during a run \n(clue: Pacifict's property)
 CHAL_ORIGIN_NAME,Origin
 CHAL_ORIGIN_DESC,Get a specific weapon with a specific character \n(Clue: Scythe)
 SET_ASSASSIN,Assassin
 SET_LIGHT,Light
+WEAPON_BLOWGUN,Blowgun
+WEAPON_CHAINSAW,Chainsaw
+WEAPON_CLAWS,Claws
+WEAPON_DIAMOND_CRUSHER,Diamond Crusher
+WEAPON_ROBO_FIST,Robo Fist
+WEAPON_SCORCHING_SAND_BOTTLE,Scorching Sand Bottle
+WEAPON_SCYTHE,Scythe
 WEAPON_SCYTHE_WELLROUNDED_PROPERTY,[color=#555555]Well-Rounded's Property[/color]
+WEAPON_SIX_BULLET_REVOLVER,Six Bullet Revolver
+WEAPON_SMALL_SCYTHE,Small Scythe
 ITEM_DESC_OLD_JOURNAL,"[color=#555555]page 49 (all other pages seem to be ripped off) wow, the time passes so quickly... i mean, why did this all started? this was a normal society, we had each other like a family, we protected the most fragile members from the aliens, and we were happy, but suddenly all changed... for any reason, one-arm begun to behave quite weirdly, they were angrier, stronger, and its eyes looked like trying to find something... kill something... that's when homicide alarms ringed, and everyone was in fear, of when was the next attack having place... yesterday i got a message in a card, from one-arm, he says he wants to battle...[/color]"
 ITEM_DESC_CURSED_LETTER,"[color=#555555]Day 50: I'm scared... I don't know what to do anymore... I've been hiding too much time, but, knowing what happened to Well-Rounded, I don't feel safe anymore... I'm starting to loose my sanity, I don't know to what point I have to get for having my heart disappearing between mourning and blood. I think that trying to survive from aliens without killing them is not an option anymore, I'll have to break my promise, and KILL.[/color]"
 ITEM_DESC_BROKEN_GLASSES,"[color=#555555]Here they are! Oh, they broke...[/color]"
 ITEM_DESC_ONE_ARMS_CORPSE,"[color=#555555]Finally, someone ended this nightmare[/color]"
 EFFECT_ALL_PROJECTILES_HOMING,All projectiles gain homing
 EFFECT_BLOWGUN,Projectiles slow enemies
+UPGRADE_CONSUMABLE_HEAL,Stomach
