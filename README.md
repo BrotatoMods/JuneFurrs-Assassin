@@ -1,4 +1,4 @@
-# Brotato - Assassin Mod
+# JuneFurrs - Assassin Mod
 
 ![GitHub all releases](https://img.shields.io/github/downloads/BrotatoMods/Brotato-Assassin-Mod/total)
 
