@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=5 format=2]
 
-[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/challenges/cl_challenge_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/Darkly77-ExpandedChallenges/challenges/ex_challenge_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/unstable/assassinmod_psicopath_icon.png" type="Texture" id=2]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/items/hockey_mask/hockey_mask_data.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/JuneFurrs-Assassin/content/characters/unstable/unstable_data.tres" type="Resource" id=4]
